@@ -9,6 +9,7 @@ namespace CourseLibrary.API.Profiles
 {
     public class AuthorsProfile : Profile
     {
+        //automapper
         public AuthorsProfile()
         {
             CreateMap<Entities.Author, Models.AuthorDto>()
